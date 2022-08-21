@@ -2,6 +2,9 @@
 audio.soundtrigger.debug.urser_id               u:object_r:vendor_audio_prop:s0
 audio_hal.in_period_size                        u:object_r:vendor_audio_prop:s0
 
+# Bluetooth
+persist.vendor.bt.                              u:object_r:vendor_bluetooth_prop:s0
+
 # Camera
 camera.                                         u:object_r:vendor_camera_prop:s0
 persist.camera.                                 u:object_r:vendor_camera_prop:s0
@@ -34,12 +37,20 @@ ro.ril.miui.imei                                u:object_r:vendor_deviceid_prop:
 ro.ril.oem.imei                                 u:object_r:vendor_deviceid_prop:s0
 ro.ril.oem.meid                                 u:object_r:vendor_deviceid_prop:s0
 
+# Serial Number
+ro.vendor.oem.sno                               u:object_r:vendor_sno_prop:s0
+ro.vendor.oem.psno                              u:object_r:vendor_sno_prop:s0
+
 # Power
 vendor.powerhal.state                           u:object_r:vendor_power_prop:s0
 vendor.powerhal.audio                           u:object_r:vendor_power_prop:s0
 vendor.powerhal.lpm                             u:object_r:vendor_power_prop:s0
 vendor.powerhal.init                            u:object_r:vendor_power_prop:s0
 vendor.powerhal.rendering                       u:object_r:vendor_power_prop:s0
+
+# Radio
+ro.vendor.ril.svlte1x                           u:object_r:vendor_radio_prop:s0
+ro.vendor.ril.svdo                              u:object_r:vendor_radio_prop:s0
 
 # Mlipay
 persist.vendor.sys.pay                          u:object_r:vendor_tee_listener_prop:s0
