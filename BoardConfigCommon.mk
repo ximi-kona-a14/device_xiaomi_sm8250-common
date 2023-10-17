@@ -6,6 +6,8 @@
 
 COMMON_PATH := device/xiaomi/sm8250-common
 
+BUILD_BROKEN_CLANG_PROPERTY := true
+
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # A/B
