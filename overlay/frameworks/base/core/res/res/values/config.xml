@@ -347,4 +347,7 @@
      <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
          in hardware for individual layers. -->
     <bool name="config_setColorTransformAcceleratedPerLayer">true</bool>
+
+     <!-- Whether the new Auto Selection Network UI should be shown -->
+    <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
 </resources>
