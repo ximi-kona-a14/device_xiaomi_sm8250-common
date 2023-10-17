@@ -348,6 +348,9 @@
          in hardware for individual layers. -->
     <bool name="config_setColorTransformAcceleratedPerLayer">true</bool>
 
+    <!-- Default color temperature, in Kelvin, used by display white balance. -->
+    <integer name="config_displayWhiteBalanceColorTemperatureDefault">6700</integer>
+
      <!-- Whether the new Auto Selection Network UI should be shown -->
     <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
 </resources>
